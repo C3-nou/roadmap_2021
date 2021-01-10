@@ -1,0 +1,44 @@
+- Qué es internet ?
+    Internet es una gran red de nivel mundial que hablan sobre el mismo patron común (TCP/IP).
+
+- Cómo funciona internet ?
+    Internet funciona atraves de la interconexión TCP/IP conectando N equipos a través de diferentes
+    infraestucturas y sistemas conmutados comunes.
+        - Referencia: https://developer.mozilla.org/es/docs/Learn/Common_questions/How_does_the_Internet_work
+
+- Qué es HTTP ?
+    Abreviatura de Protocolo de Transferencia de Hipertexto.
+    Usa el puerto de comunicación 80
+    Ejemplo de Sesión HTTP:
+        Este es un ejemplo de stateless (Dura la conexión el tiempo que dure el intercambio de datos).
+        - Cliente HTTP (Navegador): Envía de petición desde el cliente.
+        - Servidor HTTP (Servidor web): Recibe el mensaje, valida y da una respuesta.
+    Tipos de Mensajes:
+        1xx: Simples mensajes informativos.
+        2xx: Éxito de algún tipo.
+        3xx: Redirecciones o requiere acciones adicionales.
+        4xx: Un error en el área del cliente.
+        5xx: Error en el lado del servidor.
+    - Qué es HTTPS ?
+        Protocolo HTTP con cifrado a dos puntos (Cliente-Servidor)
+
+- Navegadores, Cómo funcionan.
+    Su principal función es apoyar al cliente con el consumo de la información de diversos
+    servidores web, para esto se marcan en el uso del protocolo HTTP o HTTPS que permite la 
+    comunicación, finalmente; el navegador representa la información de cara al usuario (Normalmente, 
+    son documentos HTML, CSS y JS. Pero también se incluyen documentos, imágenes, etc.)
+
+- DNS, Qué es y Cómo funciona ?
+    El DNS es una infraestuctura que se basa en el almacenamiento de los dominios e ip que lo contienen,
+    incluyen: Cliente, Resolver (Servidor de proveedor de internet), servidor raíz, tld, servidor autoritario.
+
+- Qué es un nombre de dominio ?
+    Un nombre de dominio es un identificador humanizado (Comprensible por el ser humano), que traduce el 
+    protocolo TCP/IP a un nombre de caracter unico (173.194.121.32 = google.com)
+
+- Qué es un hosting ?
+    Un hosting web es un centro de almacenamiento del cual se puede acceder via web, computadora conectada en red
+    de forma casi permanente en la cual se almacena la información de todo internet.
+
+Notas:
+    Internet es infraestuctura y web es un servicio construido a través de dicha infraestuctura.
